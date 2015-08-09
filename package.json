@@ -1,0 +1,43 @@
+{
+  "name": "teamcity-pub",
+  "version": "0.1.0",
+  "description": "api for publishing from artifacts of teamcity",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha",
+    "jshint": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://kaikai2@github.com/kaikai2/teamcity-pub.git"
+  },
+  "keywords": [
+    "teamcity",
+    "publish"
+  ],
+  "author": "Zikai Zhang <zikaizhang@gmail.com>",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/brentertz/scapegoat/blob/master/LICENSE-MIT"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/kaikai2/teamcity-pub/issues"
+  },
+  "homepage": "https://github.com/kaikai2/teamcity-pub",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "chai-as-promised": "^5.1.0",
+    "chai-spies": "^0.7.0",
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.2",
+    "mocha": "^2.2.5",
+    "sinon": "^1.15.4"
+  },
+  "dependencies": {
+    "sax": "^1.1.1",
+    "underscore": "^1.8.3",
+    "v8-promise": "^1.0.5"
+  }
+}
